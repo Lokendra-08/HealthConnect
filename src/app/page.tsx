@@ -73,9 +73,10 @@ function Dashboard({ userType, onLogout }: { userType: string, onLogout: () => v
 
   // Mock data for appointments and messages
   const appointments = [
-    { id: 1, date: 'May 15, 2024', time: '10:00 AM', patient: 'John Doe', doctor: 'Dr. Smith' },
-    { id: 2, date: 'May 17, 2024', time: '2:00 PM', patient: 'Jane Smith', doctor: 'Dr. Johnson' },
-    { id: 3, date: 'May 20, 2024', time: '11:30 AM', patient: 'Bob Brown', doctor: 'Dr. Smith' },
+    { id: 1, date: 'May 15, 2024', time: '10:00 AM', patient: 'John Doe', doctor: 'Dr. Priyansh' },
+    { id: 2, date: 'May 15, 2025', time: '10:00 AM', patient: 'John Doe', doctor: 'Dr. Smith' },
+    { id: 3, date: 'May 17, 2024', time: '2:00 PM', patient: 'Jane Smith', doctor: 'Dr. Johnson' },
+    { id: 4, date: 'May 20, 2024', time: '11:30 AM', patient: 'Bob Brown', doctor: 'Dr. Smith' },
   ]
 
   const messages = [
